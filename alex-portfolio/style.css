@@ -380,7 +380,14 @@ footer {
         width: 280px;
         height: 280px;
     }
-}
+      .hero-image {
+        width: 280px;
+        height: 280px;
+    }
+
+    /* Mobile Gallery */
+    
+}  
     .gallery-container {
         grid-template-columns: 1fr;
     }
@@ -505,7 +512,7 @@ footer {
 }
 
 .gallery-item img {
-    width: 106%;
+    width: 100%;
     height: 260px;
     object-fit: cover;
     display: block;
@@ -704,7 +711,9 @@ footer {
         font-size: 27px;
     }
 
-    .service-card img {
-        height: 220px;
+        .service-card img {
+        height: auto;
+        max-height: 300px;
+        object-fit: contain;
     }
 }
